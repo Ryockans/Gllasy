@@ -1,0 +1,44 @@
+.contacts-wrapper{
+  width: 1200px;
+  height: 430px;
+  background-image: url("../../../images/index/map.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  grid-column: 1/5;
+  justify-self: center;
+}
+
+.contacts{
+  padding: 32px 25px;
+  width: var(--contacts-card-width);
+  height: var(--contacts-card-height);
+  background-color: var(--color-contacts-background);
+  border-radius: var(--contacts-border-radius);
+  position: absolute;
+  bottom: 62px;
+  right: 30px;
+}
+
+.contacts__headline{
+  max-width: 155px;
+  font: var(--font-contacts-text);
+  color: var(--color-contacts-text);
+}
+
+.contacts__address{
+  margin-bottom: 30px;
+  max-width: 225px;
+  font: var(--font-contacts-info);
+  color: var(--color-contacts-text);
+}
+
+.contacts__tel{
+  margin-bottom: 30px;
+  font: var(--font-contacts-text);
+  color: var(--color-contacts-text);
+}
+
+.contacts__tel-link{
+  font: var(--font-contacts-info);
+  color: var(--color-contacts-text);
+}

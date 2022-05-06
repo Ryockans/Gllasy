@@ -1,0 +1,11 @@
+.page-header{
+  margin-top: 9px;
+  display: grid;
+  grid-template-columns: min-content max-content 1fr min-content;
+  grid-template-rows: max-content max-content;
+  position: relative;
+}
+
+.page-header__logo{
+  margin-right: 11px;
+}

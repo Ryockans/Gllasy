@@ -1,0 +1,58 @@
+:root {
+  /* Семейство шрифтов */
+  --font-family-main: 'Roboto', Arial, sans-serif;
+
+  /* Шрифты заголовка */
+  --font-header-main: 700 16px/18px var(--font-family-main);
+  --font-header-secondary: 14px var(--font-family-main);
+  --font-header-new: 700 14px var(--font-family-main);
+  --font-header-button: 500 14px/16px var(--font-family-main);
+  --font-header-working-time: 700 14px/16px var(--font-family-main);
+  --font-header-tel: 700 22px/24px var(--font-family-main);
+  --font-header-form: 14px var(--font-family-main);
+  --font-header-form-link: 13px var(--font-family-main);
+
+  /* Шрифты секций */
+  --font-main-slider: 700 60px/60px var(--font-family-main);
+  --font-banner-header: 700 35px/41px var(--font-family-main);
+  --font-banner-text: 500 18px/22px var(--font-family-main);
+  --font-advantages-header: 500 24px/30px var(--font-family-main);
+  --font-advantages-text: 16px/22px var(--font-family-main);
+  --font-news-header: 500 16px/22px var(--font-family-main);
+  --font-news-link: 700 24px/30px var(--font-family-main);
+  --font-subscription-text: 16px/22px var(--font-family-main);
+  --font-contacts-text: 14px/20px var(--font-family-main);
+  --font-contacts-info: 700 18px/20px var(--font-family-main);
+  --font-feedback-header: 500 24px var(--font-family-main);
+  --font-feedback-text: 16px/20px var(--font-family-main);
+
+  /* Шрифты карточки продукта */
+  --font-card-price-main: 700 45px/45px var(--font-family-main);
+  --font-card-price-secondary: 700 30px/30px var(--font-family-main);
+  --font-card-text: 16px/22px var(--font-family-main);
+
+  /* Шрифты каталога */
+  --font-catalog-header: 700 35px/41px var(--font-family-main);
+  --font-catalog-breadcrumbs: 14px/16px var(--font-family-main);
+  --font-catalog-label: 500 14px/16px var(--font-family-main);
+  --font-catalog-filter: 500 16px/18px var(--font-family-main);
+  --font-catalog-pager: 500 16px/18px var(--font-family-main);
+
+  /* Шрифты подвала */
+  --font-footer-navigation: 13px/18px var(--font-family-main);
+  --font-footer-important: 700 13px/18px var(--font-family-main);
+  --font-copyright: 12px/18px var(--font-family-main);
+
+  /* Шрифты кнопок */
+  --font-button-big: 700 32px/44px var(--font-family-main);
+  --font-button-main: 700 18px var(--font-family-main);
+  --font-button-userbar: 500 14px var(--font-family-main);
+  --font-button-filter: 500 15px var(--font-family-main);
+
+  /* Шрифты форм */
+  --font-form-input: 16px/24px var(--font-family-main);
+
+  /* Шрифты корзины */
+  --font-basket-main: 13px/16px var(--font-family-main);
+  --font-basket-price: 700 15px/16px var(--font-family-main);
+}

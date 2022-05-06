@@ -1,0 +1,133 @@
+.filter__form{
+  margin-bottom: 26px;
+  max-width: 870px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.filter{
+  margin-bottom: 14px;
+}
+
+.filter__headline{
+  margin-left: 16px;
+  margin-bottom: 7px;
+  font: var(--font-catalog-label);
+  color: var(--color-text-main);
+}
+
+.filter__label{
+  display: flex;
+  align-items: center;
+  font: var(--font-catalog-filter);
+  color: var(--color-text-main);
+}
+
+.filter__control{
+  padding: 0 19px 0 16px;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-white-transparent);
+  border-radius: var(--button-border-radius);
+}
+
+.filter__control-item{
+  margin: 0 10px;
+}
+
+.filter__control-item:first-of-type{
+  margin-left: 0;
+}
+
+.filter__control-item:last-of-type{
+  margin-right: 0;
+}
+
+.filter__icon-radio{
+  margin-right: 13px;
+}
+
+.filter__icon-checkbox, .filter__icon-checkbox-on{
+  margin-right: 11px;
+}
+
+/* Меняем чекбоксы */
+
+.filter__input.-checkbox + .filter__label .filter__icon-checkbox-on{
+  display: none;
+}
+
+.filter__input.-checkbox:checked + .filter__label .filter__icon-checkbox{
+  display: none;
+}
+
+.filter__input.-checkbox:checked + .filter__label .filter__icon-checkbox-on{
+  display: inline;
+}
+
+/* Меням радиокнопки */
+
+.filter__input.-radio+ .filter__label .filter__icon-property.-radio-on{
+  fill-opacity: 0;
+}
+
+.filter__input.-radio:checked + .filter__label .filter__icon-property.-radio-on{
+  fill-opacity: 0.8;
+}
+
+
+.filter__label:hover .filter__icon-property{
+  fill-opacity: 1.0;
+}
+
+.filter__input.-radio:checked + .filter__label:hover .filter__icon-property.-radio-on{
+  fill-opacity: 1.0;
+}
+
+/* select */
+
+.filter__select{
+  position: relative;
+  background-color: var(--color-white-transparent);
+  border-radius: var(--button-border-radius);
+  font: var(--font-catalog-filter);
+  color: var(--color-text-main);
+}
+
+.filter__select-control{
+  appearance: none;
+  padding: 0 15px;
+  min-height: 36px;
+  min-width: 196px;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+.filter__select:hover {
+  color: var(--color-text-secondary);
+}
+
+
+.filter__select:hover .filter__icon-property{
+  fill: var(--color-text-secondary);
+}
+
+.filter__select-control:focus + .filter__icon-select .filter__icon-property{
+  fill: var(--color-text-secondary);
+}
+
+.filter__select-control:focus{
+  color: var(--color-text-secondary);
+  outline: none;
+}
+
+
+.filter__icon-select{
+  position: absolute;
+  top: 40%;
+  right: 14px;
+}

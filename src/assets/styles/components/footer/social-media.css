@@ -1,0 +1,25 @@
+.social-media__list{
+  display: flex;
+}
+
+.social-media__list-item{
+  margin: 0 6px;
+}
+
+.social-media__list-item:first-of-type{
+  margin-left: 0;
+}
+
+.social-media__list-item:last-of-type{
+  margin-right: 0;
+}
+
+
+.social-media__list-item:hover .social-media__icon-properties{
+  fill-opacity: 1.0;
+  opacity: 1.0;
+}
+
+.social-media__list-item:active .social-media__icon-properties{
+  stroke-opacity: 0.7;
+}

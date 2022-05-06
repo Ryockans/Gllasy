@@ -1,0 +1,6 @@
+.banners-line{
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1/5;
+}
+

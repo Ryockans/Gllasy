@@ -1,0 +1,51 @@
+.advantages{
+  padding: 24px 23px 10px 20px;
+  background-color: var(--color-background-template-light);
+  background-image: url("../../../images/index/pattern_waffle.jpg");
+  border-radius: var(--about-border-radius);
+  color: var(--color-black-night-rider);
+  width: 1146px;
+  height: 306px;
+}
+
+.advantages__headline{
+  margin-bottom: 21px;
+  font: var(--font-advantages-header);
+}
+
+.advantages__list{
+  display: grid;
+  grid-template:  min-content min-content / 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 26px;
+}
+
+.advantages__list-text{
+  margin-left: 6px;
+  font: var(--font-advantages-text);
+}
+
+.advantages__list-item{
+  max-width: 540px;
+  display: flex;
+}
+
+.advantages__list-item:first-of-type:before{
+  margin-top: -10px;
+  content: url("../../../images/index/icon_ice_cream.svg");
+}
+
+.advantages__list-item:nth-of-type(2):before{
+  margin-top: -10px;
+  content: url("../../../images/index/icon_cow.svg");
+}
+
+.advantages__list-item:nth-of-type(3):before{
+  margin-top: -10px;
+  content: url("../../../images/index/icon_leaf.svg");
+}
+
+.advantages__list-item:last-of-type:before{
+  margin-top: -10px;
+  content: url("../../../images/index/icon_thermometer.svg");
+}

@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+
+.page{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  border: none;
+}

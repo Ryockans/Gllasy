@@ -1,0 +1,130 @@
+.form {
+  display: none;
+  background-color: var(--color-form-background);
+  border-radius: var(--feedback-border-radius);
+}
+
+.userbar__list-item:hover .form {
+  display: block;
+  position: absolute;
+}
+
+.form.-search {
+  padding: 20px 15px;
+  width: 341px;
+  height: 84px;
+  top: 37px;
+  right: 0;
+  box-shadow: 0 20px 20px var(--color-form-shadow);
+}
+
+.form__input.-search {
+  width: 311px;
+  height: 44px;
+}
+
+.form__input.-login {
+  width: 241px;
+  height: 44px;
+  grid-column: 1/4;
+}
+
+.userbar__list-item:hover .form.-login {
+  display: grid;
+  grid-template-rows: min-content min-content max-content;
+  grid-template-columns: 103px 1fr 120px;
+  row-gap: 20px;
+}
+
+.form.-login {
+  padding: 20px 17px 22px 19px;
+  width: 277px;
+  height: 214px;
+  top: 37px;
+  right: 0;
+  box-shadow: 0 20px 20px var(--color-form-shadow);
+}
+
+.form__item.-login.-email {
+  grid-row: 1/2;
+}
+
+.form__item.-login.-password {
+  grid-row: 2/3;
+}
+
+.form__input {
+  padding: 15px;
+  font: var(--font-form-input);
+  border: 1px solid var(--color-form-input);
+  border-radius: var(--input-border-radius);
+}
+
+.form__input:hover {
+  border: 2px solid var(--color-form-input);
+}
+
+.form__input:focus {
+  border: 2px solid var(--color-form-input-focus);
+  outline: none;
+}
+
+.form-links__forgot, .form-links__registration {
+  font: inherit;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.form-login__links {
+  grid-row: 3/4;
+  grid-column: 3/4;
+  display: grid;
+  align-self: center;
+  font: var(--font-header-form-link);
+  color: var(--color-form-links);
+}
+
+.form-links__forgot:hover, .form-links__registration:hover {
+  color: var(--color-links-hover-secondary);
+}
+
+.form-login__submit {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+
+.form.-subscription {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__input.-subscription {
+  width: 368px;
+  height: 46px;
+  font: var(--font-form-input);
+  border: 1px solid var(--color-input-border);
+  border-radius: var(--input-border-radius);
+}
+
+.form__input.-subscription:hover {
+  border: 2px solid var(--color-input-border);
+}
+
+.form__input.-subscription:focus {
+  border: 2px solid var(--color-form-input-focus);
+  outline: none;
+}
+
+.form.-search:hover + .button.-userbar.-round {
+  background-color: var(--color-button-userbar-hover);
+  background-image: none;
+  box-shadow: none;
+  color: var(--color-text-secondary);
+}
+
+.form.-login:hover + .button.-userbar {
+  background-color: var(--color-button-userbar-hover);
+  background-image: none;
+  box-shadow: none;
+  color: var(--color-text-secondary);
+}

@@ -1,0 +1,22 @@
+.news{
+  padding: 23px 20px;
+  background-color: var(--color-background-template-light);
+  background-image: url("../../../images/index/strawberry_background.jpg");
+  width: var(--banner-width);
+  height: var(--banner-bottom-height);
+  border-radius: var(--banner-border-radius);
+}
+
+.news__headline{
+  max-width: 287px;
+  font: var(--font-news-header);
+  color: var(--color-news-text);
+}
+
+.news__link{
+  display: block;
+  max-width: 287px;
+  font: var(--font-news-link);
+  color: var(--color-news-text);
+  text-decoration: underline var(--color-news-text);
+}

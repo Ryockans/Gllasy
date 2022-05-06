@@ -1,8 +1,0 @@
-.copyright{
-  justify-self: end;
-}
-
-.copyright__caption{
-  font: var(--font-copyright);
-  color: var(--color-text-main);
-}

@@ -1,0 +1,5 @@
+.page__headline.-catalog{
+  margin-bottom: 29px;
+  font: var(--font-catalog-header);
+  color: var(--color-text-main);
+}

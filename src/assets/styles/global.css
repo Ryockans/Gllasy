@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+
+.page{
+  height: 100%;
+}
+
+.page__body{
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+}
+
+.page__body.-index {
+  background-size: 1200px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -250px;
+  background-attachment: scroll;
+}
+
+.page__body.-catalog {
+  background-color: #849D8F;
+}
+
+.page__header{
+  margin-top: 9px;
+}
+
+.page__footer{
+  padding-top: 18px;
+  padding-bottom: 25px;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  border: none;
+}

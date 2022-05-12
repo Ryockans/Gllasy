@@ -1,0 +1,121 @@
+:root {
+  /* Палитра цветов */
+  --color-white: #ffffff;
+  --color-white-transparent: rgba(255, 255, 255, 0.2);
+  --color-white-transparent-low: rgba(255, 255, 255, 0.5);
+  --color-white-transparent-special: rgba(255, 255, 255, 0.4);
+  --color-white-floral: #F8F7F4;
+  --color-white-coconut: #FEFEFE;
+  --color-green-white: #D3D3D2;
+  --color-green-padua: #849D8F;
+  --color-grey-bali-hai: #8996A6;
+  --color-grey-zambezi: #5A5A5A;
+  --color-dimgrey: #696969;
+  --color-grey-light-transparent: rgba(178, 178, 178, 0.52);
+  --color-grey-transparent: rgba(50, 50, 50, 0.2);
+  --color-grey-celeste: #CACAC7;
+  --color-brown-almond-frost: #9D8B84;
+  --color-red-tomato: #F26843;
+  --color-red-cinnabar: #E74A35;
+  --color-red-cinnabar-lighter: #E84D37;
+  --color-red-japonica: #D07058;
+  --color-red-free-speech: #AC1000;
+  --color-blue-dodger-transparent: rgba(46, 136, 228, 0.52);
+  --color-black-night-rider: #323232;
+  --color-black-transparent: rgba(0, 0, 0, 0.07);
+  --color-black-transparent-darker: rgba(0, 0, 0, 0.4);
+  --color-ebony-transparent: rgba(49, 50, 53, 0.5);
+  --color-dark-red-transparent: rgba(172, 16, 0, 0.64);
+  --color-red-oxide-transparent: rgba(85, 8, 0, 0.54);
+  --color-orange-mandarian: #942718;
+  --color-pink-pippin: #FBDED7;
+  --color-pink-wax-flower: #F6B5A5;
+  --color-pink-mandys: #FFBC9E;
+
+  /* Градиенты */
+  --color-gradient: var(--color-red-tomato), var(--color-red-cinnabar);
+  --color-pseudogradient-white: var(--color-white-transparent), var(--color-white-transparent);
+  --color-pseudogradient-black: var(--color-black-transparent), var(--color-black-transparent);
+
+  /* Общее */
+  --color-page-background-first: var(--color-green-padua);
+  --color-page-background-second: var(--color-grey-bali-hai);
+  --color-page-background-third: var(--color-brown-almond-frost);
+  --color-text-main: var(--color-white);
+  --color-text-secondary: var(--color-black-night-rider);
+  --color-links-hover-main: var(--color-pink-mandys);
+  --color-links-hover-secondary: var(--color-red-cinnabar-lighter);
+  --color-background-template: var(--color-black-night-rider);
+  --color-background-template-light: var(--color-white-floral);
+  --color-text-border: var(--color-white-transparent);
+
+  /* Кнопки */
+  --color-button: var(--color-gradient);
+  --color-button-hover: var(--color-pseudogradient-white);
+  --color-button-active: var(--color-pseudogradient-black);
+  --color-button-text: var(--color-white);
+  --color-button-big-shadow: var(--color-dark-red-transparent);
+  --color-button-shadow: var(--color-red-oxide-transparent);
+  --color-button-inset-shadow: var(--color-orange-mandarian);
+  --color-button-hover-shadow: var(--color-red-free-speech);
+  --color-button-userbar: var(--color-white-transparent);
+  --color-button-userbar-hover: var(--color-white);
+  --color-button-filter: var(--color-white-transparent);
+  --color-button-filter-border: var(--color-white);
+  --color-button-filter-hover: var(--color-white);
+  --color-button-filter-shadow: var(--color-dimgrey);
+
+  /* Панель навигации */
+  --color-navigation-border: var(--color-white-transparent);
+  --color-header-navigation-hover: var(--color-white);
+  --color-header-navigation-current: var(--color-red-japonica);
+  --color-form-links: var(--color-black-night-rider);
+  --color-navigation-shadow-active: var(--color-dimgrey);
+
+  /* Подменю каталога */
+  --color-catalog-submenu: var(--color-white);
+  --color-catalog-submenu-shadow: var(--color-black-transparent-darker);
+  --color-catalog-submenu-divider: var(--color-grey-transparent);
+  --color-catalog-submenu-hover: var(--color-pink-pippin);
+  --color-catalog-submenu-active: var(--color-pink-wax-flower);
+  --color-catalog-submenu-current: var(--color-red-japonica);
+
+  /* Слайдер */
+
+  --color-slider-button: var(--color-white);
+  --color-slider-button-hover: var(--color-white-transparent-special) ;
+
+  /* Карточки продуктов */
+  --color-product-card-background: var(--color-white-transparent);
+  --color-product-card-text: var(--color-white);
+  --color-product-card-text-shadow: var(--color-ebony-transparent);
+
+  /* Преимущества */
+  --color-advantages-text: var(--color-black-night-rider);
+
+  /* Новости */
+  --color-news-text: var(--color-black-night-rider);
+
+  /* Подписка */
+  --color-background_postal: var(--color-white-floral);
+  --color-subscription-text: var(--color-grey-zambezi);
+
+  /* Формы */
+  --color-input-border: var(--color-grey-light-transparent);
+  --color-form-input-text: var(--color-black-night-rider);
+  --color-form-background: var(--color-white-floral);
+  --color-form-shadow: var(--color-black-transparent-darker);
+  --color-form-input: var(--color-green-white);
+  --color-form-input-focus: var(--color-blue-dodger-transparent);
+
+  /* Контакты */
+  --color-contacts-background: var(--color-white-coconut);
+  --color-contacts-text: var(--color-black-night-rider);
+
+  /* Пейджер */
+  --color-pager-current: var(--color-white);
+  --color-pager-hover: var(--color-white-transparent);
+
+  /* Корзина */
+  --color-basket-divider: var(--color-grey-celeste);
+}

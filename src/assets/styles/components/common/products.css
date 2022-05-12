@@ -1,0 +1,9 @@
+.products{
+  margin: 0 -13px;
+  display: grid;
+  grid-template: max-content/ 1fr 1fr 1fr 1fr;
+}
+
+.products__item{
+  margin-bottom: -72px;
+}

@@ -1,0 +1,16 @@
+:root{
+  --catalog-submenu-width: 145px;
+  --catalog-submenu-height: 170px;
+  --slider-button-size: 21px;
+  --product-card-width: 293px;
+  --product-card-height: 330px;
+  --product-card-height-hover: 402px;
+  --contacts-card-width: 303px;
+  --contacts-card-height: 306px;
+  --feedback-width: 477px;
+  --feedback-height: 471px;
+  --banner-width: 560px;
+  --banner-height: 229px;
+  --banner-bottom-height: 220px;
+  --userbar-round-size: 32px;
+}

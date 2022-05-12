@@ -1,0 +1,9 @@
+.goods{
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--color-navigation-border);
+}
+
+.goods__pager{
+  margin-top: 80px;
+}
+

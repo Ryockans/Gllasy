@@ -1,0 +1,18 @@
+.feedback{
+  width: var(--feedback-width);
+  height: var(--feedback-height);
+  background-color: var(--color-form-background);
+  border-radius: var(--feedback-border-radius);
+  z-index: 11;
+}
+
+.feedback__headline{
+  margin-bottom: 25px;
+  font: var(--font-feedback-header);
+}
+
+.feedback__close{
+  position: absolute;
+  top: 17px;
+  right: 17px;
+}

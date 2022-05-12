@@ -1,0 +1,21 @@
+.grid{
+  display: grid;
+}
+
+.grid.-index{
+  grid-template-columns: repeat(4, 267px) ;
+  column-gap: 26px;
+  grid-template-rows: min-content;
+  row-gap: 40px;
+}
+
+.grid.-header{
+  grid-template-columns: min-content max-content 1fr min-content;
+  grid-template-rows: max-content max-content;
+  position: relative;
+}
+
+.grid.-footer{
+  grid-template-columns: 1fr max-content 1fr;
+  align-items: center;
+}

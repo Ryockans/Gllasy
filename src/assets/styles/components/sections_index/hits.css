@@ -1,0 +1,8 @@
+.hits{
+  margin-bottom: -72px;
+  grid-column: 1/-1;
+}
+
+.hits__headline{
+  display: none;
+}

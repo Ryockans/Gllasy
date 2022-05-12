@@ -1,0 +1,60 @@
+.userbar{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+}
+
+.userbar__list{
+  display: flex;
+}
+
+
+.userbar__item{
+  margin: 0 5px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.userbar__item:first-of-type{
+  margin-left: 0;
+}
+
+.userbar__item:last-of-type{
+  margin-right: 0;
+}
+
+.userbar__icon{
+  margin-right: 8px;
+}
+
+.userbar__item:hover .userbar__icon-property{
+  fill: var(--color-text-secondary);
+}
+
+.userbar__icon.-search{
+  margin-right: 0;
+}
+
+.userbar__text{
+  display: flex;
+  align-items: center;
+}
+
+.userbar__item:hover .form {
+  display: block;
+  position: absolute;
+}
+
+
+.userbar__item:hover .form.-login {
+  display: grid;
+  grid-template-rows: min-content min-content max-content;
+  grid-template-columns: 103px 1fr 120px;
+  row-gap: 20px;
+}
+
+.userbar__item:hover .basket{
+  display: grid;
+}

@@ -1,0 +1,21 @@
+.header__info{
+  margin-top: 2px;
+}
+
+.information{
+  display: grid;
+  grid-column: 1/5;
+  grid-row: 2/3;
+  justify-items: end;
+  color: var(--color-text-main);
+}
+
+.information__working-time{
+  font: var(--font-header-working-time);
+}
+
+.information__tel{
+  margin-top: 8px;
+  font: var(--font-header-tel);
+  color: inherit;
+}

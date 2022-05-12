@@ -1,5 +1,5 @@
 let feedback = document.querySelector(".feedback");
-let modalBackground = document.querySelector(".modal-background");
+let modalBackground = document.querySelector(".modal");
 
 function showFeedback(n) {
     if (n !== 1){

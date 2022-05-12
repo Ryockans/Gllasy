@@ -1,8 +1,4 @@
-.catalog-page__body {
-  background-color: #849D8F;
-}
-
-.catalog-page__header{
+.page__headline.-catalog{
   margin-bottom: 29px;
   font: var(--font-catalog-header);
   color: var(--color-text-main);

@@ -7,15 +7,16 @@
   height: var(--catalog-submenu-height);
   border-radius: var(--catalog-submenu-border-radius);
   box-shadow: 0 20px 20px var(--color-catalog-submenu-shadow);
+  z-index: 10;
 }
 
-.catalog:hover + .header-nav__list-link{
+.catalog:hover + .header-nav__link{
   background-color: var(--color-header-navigation-hover);
   border-radius: var(--button-border-radius);
   color: var(--color-text-secondary);
 }
 
-.header-nav__list-item:first-of-type:hover .catalog {
+.header-nav__item:first-of-type:hover .catalog {
   display: grid;
   position: absolute;
   grid-template-rows: 38px repeat(4, 1fr);

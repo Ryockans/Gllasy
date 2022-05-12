@@ -17,78 +17,81 @@
   color: var(--color-text-main);
 }
 
-.filter__label{
-  display: flex;
-  align-items: center;
-  font: var(--font-catalog-filter);
-  color: var(--color-text-main);
-}
-
 .filter__control{
   padding: 0 19px 0 16px;
   min-height: 36px;
+}
+
+.control{
   display: flex;
   align-items: center;
   background-color: var(--color-white-transparent);
   border-radius: var(--button-border-radius);
 }
 
-.filter__control-item{
+.control__label{
+  display: flex;
+  align-items: center;
+  font: var(--font-catalog-filter);
+  color: var(--color-text-main);
+}
+
+.control__item{
   margin: 0 10px;
 }
 
-.filter__control-item:first-of-type{
+.control__item:first-of-type{
   margin-left: 0;
 }
 
-.filter__control-item:last-of-type{
+.control__item:last-of-type{
   margin-right: 0;
 }
 
-.filter__icon-radio{
+.control__icon.-radio{
   margin-right: 13px;
 }
 
-.filter__icon-checkbox, .filter__icon-checkbox-on{
+.control__icon.-checkbox, .control__icon.-checkbox-on{
   margin-right: 11px;
 }
 
 /* Меняем чекбоксы */
 
-.filter__input.-checkbox + .filter__label .filter__icon-checkbox-on{
+.control__input.-checkbox + .control__label .control__icon.-checkbox-on{
   display: none;
 }
 
-.filter__input.-checkbox:checked + .filter__label .filter__icon-checkbox{
+.control__input.-checkbox:checked + .control__label .control__icon.-checkbox{
   display: none;
 }
 
-.filter__input.-checkbox:checked + .filter__label .filter__icon-checkbox-on{
+.control__input.-checkbox:checked + .control__label .control__icon.-checkbox-on{
   display: inline;
 }
 
 /* Меням радиокнопки */
 
-.filter__input.-radio+ .filter__label .filter__icon-property.-radio-on{
+.control__input.-radio+ .control__label .control__icon-property.-radio-on{
   fill-opacity: 0;
 }
 
-.filter__input.-radio:checked + .filter__label .filter__icon-property.-radio-on{
+.control__input.-radio:checked + .control__label .control__icon-property.-radio-on{
   fill-opacity: 0.8;
 }
 
 
-.filter__label:hover .filter__icon-property{
+.control__label:hover .control__icon-property{
   fill-opacity: 1.0;
 }
 
-.filter__input.-radio:checked + .filter__label:hover .filter__icon-property.-radio-on{
+.control__input.-radio:checked + .control__label:hover .control__icon-property.-radio-on{
   fill-opacity: 1.0;
 }
 
 /* select */
 
-.filter__select{
+.select{
   position: relative;
   background-color: var(--color-white-transparent);
   border-radius: var(--button-border-radius);
@@ -96,7 +99,7 @@
   color: var(--color-text-main);
 }
 
-.filter__select-control{
+.select__control{
   appearance: none;
   padding: 0 15px;
   min-height: 36px;
@@ -107,26 +110,26 @@
   background-color: transparent;
 }
 
-.filter__select:hover {
+.select:hover {
   color: var(--color-text-secondary);
 }
 
 
-.filter__select:hover .filter__icon-property{
+.select:hover .select__icon-property{
   fill: var(--color-text-secondary);
 }
 
-.filter__select-control:focus + .filter__icon-select .filter__icon-property{
+.select__control:focus + .select__icon .select__icon-property{
   fill: var(--color-text-secondary);
 }
 
-.filter__select-control:focus{
+.select__control:focus{
   color: var(--color-text-secondary);
   outline: none;
 }
 
 
-.filter__icon-select{
+.select__icon{
   position: absolute;
   top: 40%;
   right: 14px;

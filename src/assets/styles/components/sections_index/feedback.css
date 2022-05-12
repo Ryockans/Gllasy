@@ -1,8 +1,4 @@
 .feedback{
-  padding: 22px 24px 25px;
-  position: fixed;
-  top: 200px;
-  left: calc(50% - (var(--feedback-width) / 2));
   width: var(--feedback-width);
   height: var(--feedback-height);
   background-color: var(--color-form-background);
@@ -13,39 +9,6 @@
 .feedback__headline{
   margin-bottom: 25px;
   font: var(--font-feedback-header);
-}
-
-
-
-.feedback__form{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.feedback__form-input{
-  margin-bottom: 20px;
-  width: 267px;
-  height: 44px;
-  font: var(--font-form-input);
-  color: var(--color-form-input-text);
-  border-radius: var(--input-border-radius);
-  border: 1px solid rgba(178, 178, 178, 0.52);
-}
-
-.feedback__form-textarea{
-  margin-bottom: 25px;
-  width: 428px;
-  height: 154px;
-  resize: none;
-  font: var(--font-form-input);
-  color: var(--color-form-input-text);
-  border-radius: var(--input-border-radius);
-  border: 1px solid rgba(178, 178, 178, 0.52);
-}
-
-.feedback__form-submit{
-  align-self: flex-end;
 }
 
 .feedback__close{

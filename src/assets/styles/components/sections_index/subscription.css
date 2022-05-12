@@ -1,4 +1,4 @@
-.subscription{
+.subscription__wrapper{
   width: var(--banner-width);
   height: var(--banner-bottom-height);
   display: flex;
@@ -8,7 +8,7 @@
   border-radius: var(--banner-border-radius);
 }
 
-.subscription__content-wrapper{
+.subscription{
   padding: 29px 16px 35px 20px;
   width: 548px;
   height: 210px;

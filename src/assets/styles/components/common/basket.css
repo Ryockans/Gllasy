@@ -14,10 +14,6 @@
   color: var(--color-text-secondary);
 }
 
-.userbar__list-item:hover .basket{
-  display: grid;
-}
-
 .basket__list{
   padding-bottom: 18px;
   display: grid;

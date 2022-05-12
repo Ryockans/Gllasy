@@ -27,15 +27,19 @@
 }
 
 .product-card__price{
-  font: var(--font-card-price-main);
-  color: var(--color-product-card-text);
   position: absolute;
   top: 215px;
   left: 15px;
+
+}
+
+.price{
+  font: var(--font-card-price-main);
+  color: var(--color-product-card-text);
   text-shadow: 0 1px 3px var(--color-product-card-text-shadow);
 }
 
-.product-card__price-weight{
+.price__weight-unit{
   font: var(--font-card-price-secondary);
 }
 
